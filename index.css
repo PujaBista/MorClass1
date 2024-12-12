@@ -1,0 +1,39 @@
+.classdiv{
+    background-color: red;
+    border-radius: 20px;
+}
+#check{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+
+}
+
+
+.fclass{
+    /* flex = block liyako lai eutai line ma linxa */
+    display: flex;
+    /* for spacing we use gap  between words*/
+    gap: 10px; 
+    /* border we have dotted, solid */
+    border: 5px solid green;
+    /* margin - spacing outside the box, padding - spacing inside the box*/
+    /* padding: 50px;
+    margin: 100px; */
+    /*  yesari individually spacing dina milxa top bata clockwise*/
+    margin: 1px 10px 20px 30px;
+    padding: 1px 10px 20px 30px;
+    color: rgb(116, 47, 255);
+
+}
+
+/* #iddiv{
+    background-color: purple;
+    font-family: sans-serif;
+    color: white;
+}
+
+#test{
+    color: rgb(117, 128, 0);
+} */
