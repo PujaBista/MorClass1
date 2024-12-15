@@ -1,0 +1,67 @@
+/* display:flex
+align item: center
+justify-content: space-between
+these 3 are the most imp every CSS ma aauxa nai */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* height diya paxi balla align item center le kaam garxa */
+    height: 50px;
+    align-items: center;
+    /*incase height and align item garnus xaina vane we have alternative ways i.e. padding*/
+    /* padding le sabbai i.e 3 otai item lai bich ma liayana so we are using height and align item */
+    /* padding: 15px 30px 10px 30px;  */
+
+}
+
+.logo{
+    height: 35px;
+    width: 30px;
+    object-fit: cover;
+    /* overflow: hidden; */
+
+}
+
+.schild{
+    display: flex;
+    gap: 10px;
+    /* font size default is 16 */
+    font-size: 20px;
+}
+
+.tchild{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.dashbutton{
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 50px;
+
+}
+.mainhero{
+    /* vw-> vertical width */
+    width: 70vw;
+    margin: auto;
+    /* wh->vertical height */
+    display: flex;
+    /* flex-direction -> flex ko direction dinxa */
+    flex-direction: column;
+}
+.herotxt{
+    font-size: 50px;
+    /* margin: 80px 130px; */
+}
+
+.textblue{
+    color: rgb(20, 123, 164);
+}
